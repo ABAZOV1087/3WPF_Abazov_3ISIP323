@@ -1,19 +1,19 @@
 ﻿<Page x:Class="WpfAppNavigation.Page.AboutPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:local="clr-namespace:WpfAppNavigation.Page"
-      mc:Ignorable="d" 
+      mc:Ignorable="d"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AboutPage">
 
-    <Grid>
-        <StackPanel>
-            <Label Content="О на НАС" HorizontalAlignment="Center" Margin="15"/>
-            <TextBlock Text=
+	<Grid>
+		<StackPanel>
+			<Label Content="О на НАС" HorizontalAlignment="Center" Margin="15"/>
+			<TextBlock Text=
            "BarberShop Jony — это удобное приложение для быстрой записи в любимый барбершоп. Забронируйте визит онлайн всего несколькими касаниями экрана телефона. Теперь запись проста, доступна и комфортна в любое время суток. Следите за расписанием мастеров, получайте своевременные напоминания и оставайтесь в курсе всех предложений и акций. Пусть посещение барбера станет приятным и организованным событием благодаря нашей платформе."
            Width="450" TextWrapping="Wrap" TextAlignment="Center"/>
-        </StackPanel>
-    </Grid>
+		</StackPanel>
+	</Grid>
 </Page>
